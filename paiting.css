@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+
+.head{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+    background: #f6f8f9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+    margin-bottom: 30px;
+    margin:0;
+    display: flex;
+    align-items: center;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding-right: 50px;
+    font-size: 40px;
+}
+
+li>a{
+    color:  #000000;
+    text-decoration-line: none;
+}
+
+li>a:hover{
+    color: rgb(71, 71, 71);
+}
+
+.log-in {
+    font-size: 30px;
+    margin-right: 70px;
+    color: #000000;
+}
+
+.log-in:hover{
+    color: rgb(187, 93, 0);
+}
+
+.img{
+    width: 166px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.img img{
+  width: 100%;
+}
+
+.book{
+    display: flex;
+    justify-content: start;
+}
+
+.logo{
+    margin-top: 60px;
+    color: #000000;
+    font-size: 41px;
+    margin-left: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.logo>a{
+    text-decoration: none;
+    color: black;
+}
+
+.text{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+
+body{
+    /*background: url(bg.jpg) no-repeat;
+      -webkit-background-size: 100%;  
+      background-size: 100%; */
+      background: #bfbfbf;
+    }
+
+.img2{
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#p{
+    width: 550px;
+}
+
+
+
+#photo-item{
+    width: 350px;
+    margin: 15px;
+    position: relative;
+}   
+
+#photo-item img{
+    width: 100%;
+
+}
+
+#title{
+    position: absolute;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+}
+
+
+#description{
+    position: absolute;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+    width: 97%;
+    text-align: center;
+    bottom: 3px;
+    display: none;
+    font-size: 25px;
+}
+
+#photo-item:hover #description{
+    display: block;
+}
+
+#all-img{
+    margin: 40px
+}

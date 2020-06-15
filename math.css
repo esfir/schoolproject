@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    height: 150px;
+    border: 1px solid black;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+    background: #f6f8f9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding-right: 50px;
+    font-size: 40px;
+}
+
+a{
+    color:  #000000;
+    text-decoration-line: none;
+}
+
+a:hover{
+    color: rgb(71, 71, 71);
+}
+
+.log-in {
+    font-size: 30px;
+    color: #000000;
+}
+
+.log-in:hover{
+    color: rgb(187, 93, 0);
+}
+
+img{
+    width: 166px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.book{
+    display: flex;
+}
+
+.logo{
+    margin-top: 20px;
+    color: #000000;
+    font-size: 34px;
+    margin-left: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+.text{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    font-size: 50px;
+    color: #071a71;
+    font-weight: bold;
+    position: relative;
+}
+
+.img{
+    width: 100%;
+ }
+
+ .black{
+    border: 55px solid black;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .table{
+    width: 389px;
+    border: 6px solid black;
+    height: 253px;
+    text-align: center;
+    font-size: 40px;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+ }
+
+ .class{
+    border: 1px solid black;
+    width: 191px;
+    height: 265px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .all-class{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+}
